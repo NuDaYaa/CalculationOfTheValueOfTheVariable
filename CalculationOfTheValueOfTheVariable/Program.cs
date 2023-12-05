@@ -1,9 +1,4 @@
-﻿using System;
 
-class Program
-{
-    static void Main(string[] args)
-    {
         Console.WriteLine("Введите целое число n (n≤100):"); int n = int.Parse(Console.ReadLine());
 
         Console.WriteLine("Введите два произвольных числа x и y:");
@@ -40,5 +35,3 @@ class Program
         }
 
         Console.WriteLine("Результат: z = " + z);
-    }
-}
